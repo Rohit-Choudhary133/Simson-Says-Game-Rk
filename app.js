@@ -10,14 +10,22 @@ let h2 = document.querySelector("h2");
 
 let highestScore = 0;
 
-document.addEventListener("touchstart", function(){
-  if(started==false){
+// document.addEventListener("keypress", function(){
+//   if(started==false){
+//     console.log("Game started");
+//     started = true;
+
+//     levelUp();
+//   }
+// });
+document.getElementById("startButton").addEventListener("click", function(){
+  if(started == false){
     console.log("Game started");
     started = true;
-
     levelUp();
   }
 });
+
 
 function gameFlash(btn){
     btn.classList.add("flash");
