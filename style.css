@@ -56,3 +56,19 @@ body{
 .userFlash{
     background-color: green;
 }
+.startButton {
+    height: 4rem;
+    width: 10rem;
+    border-radius: 20%;
+    border: 0.3rem solid black;
+    margin-top: 2rem;
+    font-size: 1.2rem;
+    background-color: #0f754a; /*Adjust background color to match game buttons */
+    color: rgb(255, 255, 255); /* Set text color to contrast with background */
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+.startButton:hover {
+    transform: scale(1.1);
+}
