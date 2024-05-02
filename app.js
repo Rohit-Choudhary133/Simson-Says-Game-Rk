@@ -10,7 +10,7 @@ let h2 = document.querySelector("h2");
 
 let highestScore = 0;
 
-document.addEventListener("keypress", function(){
+document.addEventListener("touchstart", function(){
   if(started==false){
     console.log("Game started");
     started = true;
